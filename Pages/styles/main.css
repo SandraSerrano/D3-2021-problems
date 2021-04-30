@@ -1,0 +1,90 @@
+body{
+  background-color: #489967;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+.Erreur{
+  font-size: 35px;
+  border: 1px solid black;
+  margin-top: 350px;
+  margin-bottom: 0px;
+  height: 35px;
+}
+
+li{
+  border: 1px solid #efefef;
+  width: 8vw;
+  height: 8vw;
+  font-size: 2em;
+  text-align: center;
+}
+
+.Final{
+  text-align: center;
+  font-size: 55px;
+}
+
+.couple{
+  padding-left: 65px;
+  margin-top: 5px;
+}
+
+.solo{
+  margin-top: 5px;
+}
+
+.chemin{
+  width : 4vw;
+  height: 4vw;
+}
+
+.bateau{
+  padding-top: 270px;
+  padding-left: 100px;
+  width:150px;
+  height: 150px;
+}
+
+.main_content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.etats{
+  background: url('Riviere.png') no-repeat top center ;
+  background-size: cover;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  min-height: 90vh;
+}
+.actions{
+  background: #266E30;
+  flex-basis: 320px;
+  display: flex;
+}
+
+.rive_gauche{
+  display: flex;
+}
+.rive_droite{
+  display: flex;
+  align-items: flex-end;
+}
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color : white;
+}
+
+h3{
+  text-align: center;
+  color: white;
+}
